@@ -1,0 +1,666 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* nav menu*/
+nav{
+    display: flex;
+    background-color: #425F57;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    border-bottom-style: groove;
+}
+
+nav ul{
+    display: flex;
+    width: 40%;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: #CFFF8D;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav ul li a{
+    padding: 2px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    background-color: #749F82;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 5px;
+    color: #CFFF8D;
+}
+
+nav ul li a:hover{
+    opacity: 0.5;
+}
+
+/* row 1 */
+.home{
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFFF8D;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.home img {
+    margin: 0px 0px 0px 20px;
+    padding: 60px 0px;
+    height: auto;
+}
+
+.slogan{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+#slide2 p{
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#slide2 a{
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #749F82;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#slide2 a .login{
+    padding-left: 70px;
+}
+
+#slide2 a:hover{
+    opacity: 0.5;
+}
+
+/* row 2 */
+#news{
+    display: flex;
+    background-color: #CFFF8D;
+    padding-top: 50px;
+}
+
+#news div{
+    flex :1;
+}
+
+#news .row2{
+    flex: 5;
+}
+
+#news .row2 .artikel{
+    margin: 5px auto;
+    padding: -20px -5px;
+}
+
+
+#news .profile{
+    flex: 1;
+}
+
+.profile aside .imgProfile{
+    border-radius: 50%;
+}
+
+.profile aside{
+    border: 2px solid white;
+    padding: 10px 30px;
+    transition: 1s ease;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #749F82;
+    margin: 0px 50px;
+}
+
+.profile aside:hover{
+    transform: scale(1.2);
+}
+
+.profile aside .imgProfile{
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+
+
+.row2 .artikel img{
+    width: 200px;
+    height: 250px;
+}
+
+.artikel{
+    padding: 5px 25px;
+    box-sizing: border-box;
+    width: 70%;
+    margin-bottom: 20px;
+    margin: 0px 25px;
+
+}
+
+.artikel.satu{
+    background-color: #749F82;
+    transition: 1s ease;
+    border: 3px solid white;
+}
+
+.artikel.dua{
+    background-color: #CFFF8D;
+    transition: 1s ease;
+    border: 3px solid #749F82;
+}
+
+.artikel.tiga{
+    background-color: #749F82;
+    transition: 1s ease;
+    border: 3px solid white;
+}
+
+
+.artikel.satu a{
+    background-color: #CFFF8D;
+    padding: 8px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.artikel.dua a{
+    background-color: #749F82;
+    padding: 8px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.artikel.tiga a{
+    background-color: #CFFF8D;
+    padding: 8px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.artikel.satu a:hover{
+    opacity: 0.5;
+}
+
+.artikel.dua a:hover{
+    opacity: 0.5;
+}
+
+.artikel.tiga a:hover{
+    opacity: 0.5;
+}
+
+.artikel.satu:hover{
+    transform: scale(1.2);
+}
+
+.artikel.dua:hover{
+    transform: scale(1.2);
+}
+
+.artikel.tiga:hover{
+    transform: scale(1.2);
+}
+
+/* row 3 */
+#testimoni{
+    display: flex;
+    flex-direction: column;
+    background-color: #CFFF8D;
+    padding-top: 50px;
+}
+
+#testimoni .judultes{
+    background-color: #749F82;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0px 800px;
+    color: #CFFF8D;
+    border: 2 solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#testimoni .headp{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 500px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+.container-card{
+   width: 800px;
+   height: 500px;
+   margin: 50px auto;
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 50px;
+   padding-top: 15px;
+}
+
+.card{
+    border: 1px solid #749F82;
+    border-radius: 10px;
+    background-color: #749F82;
+    overflow: hidden;
+    width: 230px;
+    box-sizing: border-box;
+    box-shadow: 0 0 7px 0  #425F57;
+}
+
+.container-card .card .header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: #CFFF8D;
+}
+
+.card.big{
+    transform: scale(1.2);
+}
+
+.card .content {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.namates{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card .content p{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-card .card .header img{
+    width: 130px;
+    height: auto;
+    padding: 5px auto;
+}
+
+    /* row4  */
+    #contact{
+        background-color: #CFFF8D;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #contact .judulcontact{
+        background-color: #749F82;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 0px 800px;
+        color: #CFFF8D;
+        border: 2 solid black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .groupcontact{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px 0px;
+    }
+
+    #contact .mapprimary iframe{
+        width: 700px;
+        height: 520px;
+    }
+
+    #contact .formcontact{
+        border-radius: 5px;
+        background-color: #749F82;
+        padding: 30px;
+    }
+    
+    #contact .formcontact input[type=text], select, textarea{
+        background-color: 45a049;
+        width: 100%;
+        padding: 2px;
+        border: 1px solid #749F82;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    #contact .formcontact input[type=submit] {
+        background-color: #CFFF8D;
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #contact input[type=submit]:hover{
+        opacity: 0.5;
+    }
+
+
+
+
+/* footer */
+footer{
+    background-color: black;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer i{
+    background-color: #CFFF8D;
+    border: 2px solid #749F82;
+}
+
+
+footer i:hover{
+    opacity: 0.5;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 0px 5px;
+}
+
+footer a:hover{
+    color: #CFFF8D;
+}
+
+footer p{
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* menu burger */
+
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -5px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span {
+    display: flex;
+    width: 28px;
+    height: 3px;
+    background-color: #CFFF8D;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+/* hamburger menu Animation*/
+
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    background-color: #CFFF8D;
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+    background-color: #CFFF8D;
+    transform: rotate(-45deg) translate(-1px, 0px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+    opacity: 0;
+    transform: scale(0);
+}
+
+@media screen and (max-width: 1200px) {
+    body{
+        width: 100%;
+        height: auto;
+    }
+
+    nav .menu i{
+        display: none;
+    }
+    
+    #slide2{
+        padding-left: 20px;
+        overflow-x: auto;
+        
+    }
+
+    #news{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #testimoni{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    nav .menu i{
+        display: none;
+    }
+    
+
+    #slide2{
+        padding-left: 25px;
+    }
+
+    .home img{
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+
+    #slide2 p{
+        text-align: left;
+    }
+
+    #news{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #testimoni{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu-toggle{
+        display: flex;
+    }
+
+    nav ul{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #425F57;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0.5;
+    }
+
+
+    nav ul.slide{
+        opacity: 1;
+        transform: translateX(0);
+    }
+/* row 1 */
+    .home img{
+        
+        width: 100%;
+        height: auto;
+
+    }
+
+    .slogan{
+        font-size: 20px;
+    }
+
+    #slide2{
+        padding: 15px 15px;
+    }
+    #slide2 p{
+        text-align: left;
+    }
+
+    /* row 2 */
+
+    #news{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* row 3 */
+    #testimoni{
+        display: flex;
+        align-items: center;
+    }
+
+    #testimoni .judultes{
+        width: 50%;
+    }
+
+    #testimoni .headp{
+        width: 50%;
+    }
+
+    .container-card{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        height: auto;
+    }
+
+    .container-card .card{
+        margin: 10px 0px;
+    }
+
+    .container-card .card.big{
+        transform: none;
+    }
+
+    /* row 4 */
+
+    #contact{
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+    }
+
+    #contact .judulcontact{
+        text-align: center;
+    }
+
+    #contact .groupcontact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact .mapprimary iframe{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    /* footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .syarat{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+    footer .syarat a{
+        font-size: 11px;
+    }
+
+}
